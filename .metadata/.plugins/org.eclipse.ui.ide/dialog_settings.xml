@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\FINARTZ\SpringMVC-Ajax-mongoDB\Deneme"/>
 		<item value="D:\FINARTZ\SpringMVC-AJAX-Project\Deneme"/>
 		<item value="D:\GITHUB\Github Projeler Deposu\SpringMVC\SpringMVCProject"/>
 	</list>
