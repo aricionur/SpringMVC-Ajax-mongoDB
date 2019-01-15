@@ -5983,3 +5983,15 @@ java.lang.Exception: Resource '/SpringMVCProject' does not exist.
 	at org.eclipse.wst.jsdt.core.JavaScriptCore.initializeAfterLoad(JavaScriptCore.java:2694)
 	at org.eclipse.wst.jsdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:32)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-15 09:11:58.976
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hLfvUuco
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-15 09:11:58.977
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.hLfvUuco
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-15 09:11:58.977
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-15 09:11:58.978
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hLfvUuco => OK
