@@ -229,7 +229,9 @@
 			                   contentType: "application/json",
 			                   data : data,
 			                   success: function(data){
+// 			                     $(tdclassshow).hide();
 			                     $(tdclasshide).show();
+// 			                     $(confirmbuttonshow).hide();
 			                     
 			                     var dispName = "#displayName"+id;
 			                     var dispSurname = "#displaySurname"+id;
@@ -262,6 +264,39 @@
       		    
       		});
            
+//             if(value==="Update"){
+//                 $(tdclassshow).show();
+//                 $(tdclasshide).hide();
+//                 $(confirmbuttonshow).show();
+                
+//             }else if(value==="Confirm"){
+//                 var name = $(editnameid).val();
+//                 var age = $(editageid).val();
+//                 var data = JSON.stringify({"id":id ,"name":name,"age":age});
+//                 $.ajax({
+//                    type : "PUT",
+//                    url : "${pageContext.request.contextPath}/updatePerson",
+//                    contentType: "application/json",
+//                    data : data,
+//                    success: function(data){
+//                      $(tdclassshow).hide();
+//                      $(tdclasshide).show();
+//                      $(confirmbuttonshow).hide();
+                     
+//                      var dispName = "#displayName"+id;
+//                      var dispAge = "#displayAge"+id;
+//                      $(dispName).text(name);
+//                      $(dispAge).text(age);
+                     
+//                      $('#updatecheck'+id).show();
+//                      setTimeout(function() { $('#updatecheck'+id).hide(); }, 2000);
+//                    }
+//                  });
+                 
+//             }
+            
+			
+          
         });
         $("#person-list").on('click','.delete-person',function(event){
             var id = $(event.target).data('itemId');
@@ -313,6 +348,7 @@
                 'Accept': 'application/json',
                 'Content-Type': 'application/json' 
             },
+//            contentType: "application/json",
             data : data,
             success: function(data){
                

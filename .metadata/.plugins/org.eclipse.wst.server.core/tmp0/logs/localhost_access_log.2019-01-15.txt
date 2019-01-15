@@ -126,3 +126,16 @@
 0:0:0:0:0:0:0:1 - - [15/Jan/2019:08:24:12 +0300] "GET /resources/demos/style.css HTTP/1.1" 404 1106
 0:0:0:0:0:0:0:1 - - [15/Jan/2019:08:24:12 +0300] "GET /lib/jquery-input-mask-phone-number.js HTTP/1.1" 404 1114
 0:0:0:0:0:0:0:1 - - [15/Jan/2019:08:24:12 +0300] "GET /lib/jquery-input-mask-phone-number.js HTTP/1.1" 404 1114
+127.0.0.1 - - [15/Jan/2019:08:45:31 +0300] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [15/Jan/2019:08:45:37 +0300] "GET /Project/ HTTP/1.1" 200 15859
+0:0:0:0:0:0:0:1 - - [15/Jan/2019:08:45:37 +0300] "GET /resources/demos/style.css HTTP/1.1" 404 1106
+0:0:0:0:0:0:0:1 - - [15/Jan/2019:08:45:37 +0300] "GET /lib/jquery-input-mask-phone-number.js HTTP/1.1" 404 1114
+0:0:0:0:0:0:0:1 - - [15/Jan/2019:08:45:37 +0300] "GET /lib/jquery-input-mask-phone-number.js HTTP/1.1" 404 1114
+0:0:0:0:0:0:0:1 - - [15/Jan/2019:08:45:47 +0300] "POST /Project/addPerson HTTP/1.1" 200 85
+127.0.0.1 - - [15/Jan/2019:08:55:32 +0300] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [15/Jan/2019:08:55:41 +0300] "GET /Project/ HTTP/1.1" 200 14356
+0:0:0:0:0:0:0:1 - - [15/Jan/2019:08:55:41 +0300] "GET /lib/jquery-input-mask-phone-number.js HTTP/1.1" 404 1114
+0:0:0:0:0:0:0:1 - - [15/Jan/2019:08:55:41 +0300] "GET /resources/demos/style.css HTTP/1.1" 404 1106
+0:0:0:0:0:0:0:1 - - [15/Jan/2019:08:55:41 +0300] "GET /lib/jquery-input-mask-phone-number.js HTTP/1.1" 404 1114
+0:0:0:0:0:0:0:1 - - [15/Jan/2019:08:55:53 +0300] "PUT /Project/updatePerson HTTP/1.1" 200 20
+0:0:0:0:0:0:0:1 - - [15/Jan/2019:08:56:00 +0300] "DELETE /Project/deletePerson HTTP/1.1" 200 -

@@ -45,6 +45,5 @@ INDEX VERSION 1.131+D:\FINARTZ\SpringMVC-Ajax-mongoDB\.metadata\.plugins\org.ecl
 685495921.index
 1458866938.index
 1901452023.index
-1328922201.index
 1563322217.index
 2528807324.index
