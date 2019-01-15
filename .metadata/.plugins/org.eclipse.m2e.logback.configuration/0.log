@@ -3668,3 +3668,87 @@ org.eclipse.core.runtime.CoreException: Launch configuration Main (1) references
 2019-01-15 08:22:48,166 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FINARTZ\SpringMVC-AJAX-Project\Deneme\src\main\resources
 2019-01-15 08:22:48,167 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-01-15 08:22:48,167 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FINARTZ\SpringMVC-AJAX-Project\Deneme\src\test\resources
+2019-01-15 08:43:40,113 [Worker-7: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-01-15 08:44:00,322 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-01-15 08:44:00,385 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2019-01-15 08:44:10,609 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-15 08:44:10,609 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FINARTZ\SpringMVC-AJAX-Project\Deneme\src\main\resources
+2019-01-15 08:44:10,614 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-15 08:44:10,614 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FINARTZ\SpringMVC-AJAX-Project\Deneme\src\test\resources
+2019-01-15 08:44:51,146 [ModalContext] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration Main (1) references non-existing project mogoDBDeneme.
+org.eclipse.core.runtime.CoreException: Launch configuration Main (1) references non-existing project mogoDBDeneme.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832) ~[org.eclipse.jdt.launching_3.11.0.v20180827-1040.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1707) ~[org.eclipse.jdt.launching_3.11.0.v20180827-1040.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:34) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219) [org.eclipse.debug.core_3.13.0.v20180821-1744.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.100.v20180827-1235.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.13.0.v20180821-1744.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2124) [org.eclipse.debug.core_3.13.0.v20180821-1744.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:372) [org.eclipse.debug.core_3.13.0.v20180821-1744.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2276) [org.eclipse.debug.core_3.13.0.v20180821-1744.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:300) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.100.v20180827-1235.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:290) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:153) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.internal.resources.File.create(File.java:173) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.internal.resources.File.create(File.java:184) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFile(ImportOperation.java:557) [org.eclipse.ui.ide_3.14.100.v20180828-1350.jar:na]
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:754) [org.eclipse.ui.ide_3.14.100.v20180828-1350.jar:na]
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:763) [org.eclipse.ui.ide_3.14.100.v20180828-1350.jar:na]
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:763) [org.eclipse.ui.ide_3.14.100.v20180828-1350.jar:na]
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:763) [org.eclipse.ui.ide_3.14.100.v20180828-1350.jar:na]
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFileSystemObjects(ImportOperation.java:649) [org.eclipse.ui.ide_3.14.100.v20180828-1350.jar:na]
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.execute(ImportOperation.java:391) [org.eclipse.ui.ide_3.14.100.v20180828-1350.jar:na]
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110) [org.eclipse.ui.ide_3.14.100.v20180828-1350.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131) [org.eclipse.ui.ide_3.14.100.v20180828-1350.jar:na]
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.performFileImport(CopyFilesAndFoldersOperation.java:1438) ~[org.eclipse.ui.ide_3.14.100.v20180828-1350.jar:na]
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.copyFileStores(CopyFilesAndFoldersOperation.java:1839) ~[org.eclipse.ui.ide_3.14.100.v20180828-1350.jar:na]
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.access$2(CopyFilesAndFoldersOperation.java:1831) ~[org.eclipse.ui.ide_3.14.100.v20180828-1350.jar:na]
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation$4.execute(CopyFilesAndFoldersOperation.java:922) ~[org.eclipse.ui.ide_3.14.100.v20180828-1350.jar:na]
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110) [org.eclipse.ui.ide_3.14.100.v20180828-1350.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319) [org.eclipse.core.resources_3.13.100.v20180828-0158.jar:na]
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131) [org.eclipse.ui.ide_3.14.100.v20180828-1350.jar:na]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+2019-01-15 08:45:01,317 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1254 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-15 08:45:01,319 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GITHUB\Github Projeler Deposu\SpringMVC\SpringMVCProject\src\main\resources
+2019-01-15 08:45:01,321 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1254 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-01-15 08:45:01,322 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GITHUB\Github Projeler Deposu\SpringMVC\SpringMVCProject\src\test\resources
+2019-01-15 08:48:41,636 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-15 08:48:41,636 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FINARTZ\SpringMVC-AJAX-Project\Deneme\src\main\resources
+2019-01-15 08:48:41,638 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-15 08:48:41,639 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FINARTZ\SpringMVC-AJAX-Project\Deneme\src\test\resources
+2019-01-15 08:49:37,693 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-15 08:49:37,693 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FINARTZ\SpringMVC-AJAX-Project\Deneme\src\main\resources
+2019-01-15 08:49:37,695 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-15 08:49:37,695 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FINARTZ\SpringMVC-AJAX-Project\Deneme\src\test\resources
+2019-01-15 08:51:39,594 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-15 08:51:39,595 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FINARTZ\SpringMVC-AJAX-Project\Deneme\src\main\resources
+2019-01-15 08:51:39,596 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-15 08:51:39,597 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FINARTZ\SpringMVC-AJAX-Project\Deneme\src\test\resources
+2019-01-15 08:53:51,396 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-15 08:53:51,397 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FINARTZ\SpringMVC-AJAX-Project\Deneme\src\main\resources
+2019-01-15 08:53:51,398 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-15 08:53:51,398 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FINARTZ\SpringMVC-AJAX-Project\Deneme\src\test\resources
+2019-01-15 08:54:19,471 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-15 08:54:19,472 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FINARTZ\SpringMVC-AJAX-Project\Deneme\src\main\resources
+2019-01-15 08:54:19,473 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-15 08:54:19,474 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FINARTZ\SpringMVC-AJAX-Project\Deneme\src\test\resources
+2019-01-15 08:55:06,985 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-15 08:55:06,985 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FINARTZ\SpringMVC-AJAX-Project\Deneme\src\main\resources
+2019-01-15 08:55:06,994 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-15 08:55:06,995 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FINARTZ\SpringMVC-AJAX-Project\Deneme\src\test\resources
+2019-01-15 09:07:34,631 [Worker-5: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
