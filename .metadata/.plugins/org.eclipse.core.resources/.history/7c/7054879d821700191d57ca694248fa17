@@ -1,5 +1,0 @@
-package com.aricionur.mongoSpringData_2;
-
-public class MongoConfig {
-
-}

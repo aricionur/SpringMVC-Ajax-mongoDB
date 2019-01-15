@@ -1,7 +1,0 @@
-package com.aricionur.dao;
-
-public class DAO {
-
-	public void insert(Json json) {}
-	
-}

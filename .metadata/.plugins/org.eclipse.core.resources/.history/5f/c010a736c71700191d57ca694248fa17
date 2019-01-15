@@ -1,5 +1,0 @@
-package com.aricionur.mongoSpringData_2;
-
-public interface UserRepository extends MongoRepository<User, String>{
-
-}
