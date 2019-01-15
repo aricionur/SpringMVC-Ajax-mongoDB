@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.aricionur.model.PersonDAO"/>
+<fullyQualifiedTypeName name="com.mongodb.util.JSON"/>
+<fullyQualifiedTypeName name="java.net.UnknownHostException"/>
+<fullyQualifiedTypeName name="com.mongodb.MongoException"/>
+<fullyQualifiedTypeName name="User"/>
+<fullyQualifiedTypeName name="org.springframework.data.mongodb.config.AbstractMongoConfiguration"/>
+<fullyQualifiedTypeName name="com.mongodb.Mongo"/>
+<fullyQualifiedTypeName name="javax.json.Json"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.data.mongodb.repository.config.EnableMongoRepositories"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="org.springframework.data.mongodb.repository.MongoRepository"/>
+<fullyQualifiedTypeName name="com.aricionur.mongoSpringData_2.User"/>
+<fullyQualifiedTypeName name="javax.interceptor.AroundTimeout"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.data.mongodb.core.MongoTemplate"/>
+<fullyQualifiedTypeName name="com.google.gson.Gson"/>
+<fullyQualifiedTypeName name="com.mongodb.MongoClient"/>
+<fullyQualifiedTypeName name="com.mongodb.DB"/>
+<fullyQualifiedTypeName name="com.mongodb.DBCollection"/>
+<fullyQualifiedTypeName name="com.mongodb.BasicDBObject"/>
+<fullyQualifiedTypeName name="com.aricionur.model.MongoDAO"/>
+</qualifiedTypeNameHistroy>

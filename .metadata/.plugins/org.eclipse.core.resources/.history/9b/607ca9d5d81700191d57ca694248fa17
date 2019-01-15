@@ -1,0 +1,5 @@
+package com.aricionur.model;
+
+public class MongoDAO {
+
+}

@@ -1,0 +1,5 @@
+package com.aricionur.mongodb;
+
+public class SpringMongoConfig {
+
+}

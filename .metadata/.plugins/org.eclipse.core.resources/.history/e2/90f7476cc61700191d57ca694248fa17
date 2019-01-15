@@ -1,0 +1,21 @@
+package com.aricionur.mongoSpringData_2;
+
+import java.net.UnknownHostException;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.data.mongodb.core.MongoTemplate;
+
+import com.mongodb.MongoClient;
+@Configuration
+public class SimpleMongoConfig {
+
+	 @Bean
+	    public MongoClient mongo() throws UnknownHostException {
+	        return new MongoClient("localhost");
+	    }
+	 
+	    @Bean
+	    public MongoTemplate mongoTemplate() throws Exception {
+	        return new MongoTemplate(mongo(), "test");
+	    }
+}

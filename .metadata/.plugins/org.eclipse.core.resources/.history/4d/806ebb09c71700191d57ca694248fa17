@@ -1,0 +1,28 @@
+package com.aricionur.dao;
+
+import javax.json.Json;
+
+import com.mongodb.BulkWriteOperation;
+import com.mongodb.BulkWriteResult;
+import com.mongodb.Cursor;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.DBCursor;
+import com.mongodb.DBObject;
+import com.mongodb.Mongo;
+import com.mongodb.MongoClient;
+import com.mongodb.MongoException;
+import com.mongodb.ParallelScanOptions;
+import com.mongodb.ServerAddress;
+import com.mongodb.util.JSON;
+
+public class DAO {
+
+	Mongo mongo = new Mongo("localhost", 27017);
+	DB db = mongo.getDB("yourdb");
+	DBCollection collection = db.getCollection("dummyColl");
+	
+	public void insert(Json json) {}
+	
+	
+}

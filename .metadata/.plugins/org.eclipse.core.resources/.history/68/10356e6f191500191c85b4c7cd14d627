@@ -1,0 +1,37 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Main Page</title>
+
+</head>
+<script type="text/javascript" src="../../resources/jquery/jquery-3.2.1.js"></script> 
+<body>
+
+<p>Message : ${message}</p>
+
+
+<button>push and wipe off</button>
+
+	<script type="text/javascript">
+	
+	alert("hello world");
+
+	
+	$(document).ready(function(){
+	    $("button").click(function(){
+	        $("p").hide();
+	    });
+	});
+			   
+    </script>
+    
+    
+
+
+</body>
+</html>

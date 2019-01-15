@@ -1,0 +1,10 @@
+package com.aricionur.model;
+import java.util.List;
+public interface PersonDAO {
+
+	 public  void insert(Person p);
+	 public  List<Person> getAllPerson();
+	 public  void update(Person person);
+	 public  void remove(int id);   
+}
+

@@ -1,0 +1,76 @@
+package com.aricionur.dao;
+
+import java.net.UnknownHostException;
+
+import com.mongodb.BasicDBObject;
+import com.mongodb.BulkWriteOperation;
+import com.mongodb.BulkWriteResult;
+import com.mongodb.Cursor;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.DBCursor;
+import com.mongodb.DBObject;
+import com.mongodb.Mongo;
+import com.mongodb.MongoClient;
+import com.mongodb.MongoException;
+import com.mongodb.ParallelScanOptions;
+import com.mongodb.ServerAddress;
+import com.mongodb.util.JSON;
+
+public class Hello {
+	public static void main(String[] args) {
+
+//		MongoClient mongoClient = new MongoClient();
+////		Mongo mongoClient = new Mongo("localhost", 27017);
+//		DB db = mongoClient.getDB( "mydb" );
+//		DBCollection collection = db.getCollection("dummyColl");
+		
+		try {
+
+			Mongo mongo = new Mongo("localhost", 27017);
+			DB db = mongo.getDB("yourdb");
+			DBCollection collection = db.getCollection("dummyColl");
+
+			// convert JSON to DBObject directly
+			DBObject dbObject = (DBObject) JSON
+					.parse("{'name':'mkyong', 'age':30}");
+
+			collection.insert(dbObject);
+			
+			System.out.println("\nwriting first insert");
+			DBCursor cursorDoc_2 = collection.find();
+			while (cursorDoc_2.hasNext()) {
+				System.out.println(cursorDoc_2.next());
+			}
+
+			System.out.println("BasicDBObject example...");
+			BasicDBObject document = new BasicDBObject();
+			document.put("database", "mkyongDB");
+			document.put("table", "hosting");
+			collection.insert(document);
+			
+			
+			System.out.println("\nwriting second insert");
+			DBCursor cursorDoc = collection.find();
+			while (cursorDoc.hasNext()) {
+				System.out.println(cursorDoc.next());
+			}
+
+			collection.remove(new BasicDBObject());
+			
+			System.out.println("\nwriting after removeee");
+			DBCursor cursorDoc_3 = collection.find();
+			while (cursorDoc_3.hasNext()) {
+				System.out.println(cursorDoc_3.next());
+			}
+
+
+			System.out.println("Done");
+
+		} catch (MongoException e) {
+			e.printStackTrace();
+		}
+		
+		
+	}
+}
