@@ -323,7 +323,7 @@ loaded. It&amp;#8217;s very fast (a few milliseconds).
 &lt;div class="sectionbody"&gt;
 &lt;div class="paragraph"&gt;
 &lt;p&gt;The ordering issue associated with the difference between user
-configuration (which has to be applied last) and autoconfiguration can
+configuration (which has to be applied first) and autoconfiguration can
 be addressed partially by using a different annotation. Spring Boot
 provides an annotation for this: &lt;code&gt;@ImportAutoConfiguration&lt;/code&gt;, which is
 from &lt;code&gt;spring-boot-autoconfigure&lt;/code&gt; but used in the

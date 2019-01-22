@@ -1588,3 +1588,15 @@ org.eclipse.core.runtime.CoreException: Launch configuration CustomerControllerT
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 !SUBENTRY 1 org.eclipse.jdt.launching 4 107 2019-01-22 10:30:19.944
 !MESSAGE Launch configuration CustomerControllerTest (1) references non-existing project SpringMvcDeneme.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:51:47.596
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CQDjEFXr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:51:47.597
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.CQDjEFXr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:51:47.597
+!MESSAGE subsribers = [sts4.classpath.fnNpuKtq]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-22 12:51:47.597
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CQDjEFXr => OK
