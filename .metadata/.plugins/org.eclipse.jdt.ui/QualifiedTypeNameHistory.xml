@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.aricionur.model.PersonDAO"/>
-<fullyQualifiedTypeName name="com.mongodb.util.JSON"/>
-<fullyQualifiedTypeName name="java.net.UnknownHostException"/>
-<fullyQualifiedTypeName name="com.mongodb.MongoException"/>
-<fullyQualifiedTypeName name="User"/>
 <fullyQualifiedTypeName name="org.springframework.data.mongodb.config.AbstractMongoConfiguration"/>
 <fullyQualifiedTypeName name="com.mongodb.Mongo"/>
 <fullyQualifiedTypeName name="javax.json.Json"/>
@@ -17,11 +12,9 @@
 <fullyQualifiedTypeName name="javax.interceptor.AroundTimeout"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.springframework.data.mongodb.core.MongoTemplate"/>
-<fullyQualifiedTypeName name="com.google.gson.Gson"/>
 <fullyQualifiedTypeName name="com.mongodb.MongoClient"/>
 <fullyQualifiedTypeName name="com.mongodb.DB"/>
 <fullyQualifiedTypeName name="com.mongodb.DBCollection"/>
-<fullyQualifiedTypeName name="com.mongodb.BasicDBObject"/>
 <fullyQualifiedTypeName name="com.aricionur.model.MongoDAO"/>
 <fullyQualifiedTypeName name="org.junit.BeforeClass"/>
 <fullyQualifiedTypeName name="org.junit.AfterClass"/>
@@ -35,9 +28,7 @@
 <fullyQualifiedTypeName name="org.springframework.test.web.servlet.setup.MockMvcBuilders"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.aricionur.test_2.Customer"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.hamcrest.beans.HasProperty"/>
 <fullyQualifiedTypeName name="org.hamcrest.Matchers"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
@@ -46,10 +37,27 @@
 <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
 <fullyQualifiedTypeName name="com.aricionur.controller.ControllerDeneme"/>
 <fullyQualifiedTypeName name="javax.net.ssl.HandshakeCompletedEvent"/>
-<fullyQualifiedTypeName name="org.springframework.ui.Model"/>
 <fullyQualifiedTypeName name="com.aricionur.model.CustomerService"/>
-<fullyQualifiedTypeName name="com.aricionur.model.Customer"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 <fullyQualifiedTypeName name="org.springframework.test.context.junit4.SpringJUnit4ClassRunner"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+<fullyQualifiedTypeName name="com.aricionur.model.Customer"/>
+<fullyQualifiedTypeName name="org.springframework.http.MediaType"/>
+<fullyQualifiedTypeName name="javax.net.ssl.SSLEngineResult.Status"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.ViewResolver"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.mockito.ArgumentCaptor"/>
+<fullyQualifiedTypeName name="org.mockito.runners.MockitoJUnitRunner"/>
 <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+<fullyQualifiedTypeName name="com.aricionur.controller.ControllerMVC"/>
+<fullyQualifiedTypeName name="com.aricionur.config.ViewConfig"/>
+<fullyQualifiedTypeName name="com.aricionur.dao.ADao"/>
+<fullyQualifiedTypeName name="com.aricionur.dao.DAO"/>
+<fullyQualifiedTypeName name="com.mongodb.BasicDBObject"/>
+<fullyQualifiedTypeName name="com.google.gson.Gson"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.aricionur.model.Person"/>
+<fullyQualifiedTypeName name="com.aricionur.model.PersonService"/>
+<fullyQualifiedTypeName name="org.springframework.ui.Model"/>
 </qualifiedTypeNameHistroy>

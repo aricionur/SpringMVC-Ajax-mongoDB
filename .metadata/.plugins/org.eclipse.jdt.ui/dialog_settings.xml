@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="C:\Users\onurx\.m2\repository\org\springframework\spring-test-mvc\1.0.0.M1" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="C:\Users\onurx\.m2\repository\org\springframework\spring-context\5.0.0.RELEASE" key="org.eclipse.jdt.ui.lastextjar"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item value="true" key="renameSubpackages"/>
 		<item value="false" key="updateQualifiedNames"/>
@@ -66,7 +66,7 @@
 	</section>
 	<section name="completion_proposal_size">
 		<item value="287" key="size.y"/>
-		<item value="595" key="size.x"/>
+		<item value="702" key="size.x"/>
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item value="false" key="SortOrdering"/>
