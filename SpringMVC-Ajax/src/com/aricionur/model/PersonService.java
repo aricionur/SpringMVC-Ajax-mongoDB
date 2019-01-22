@@ -15,7 +15,6 @@ public class PersonService {
 	private static int currentId;
 
 	public PersonService() {
-		System.out.println("\n  **PersonService constructer  **");
 
 		this.dao = new DAO();
 		this.gson = new Gson();
@@ -45,7 +44,6 @@ public class PersonService {
 	}
 
 	public Person insert(Person person) {
-		System.out.println("\n******** PersonService insert method***********");
 
 		// create a dbObject to store key and value
 		BasicDBObject dbObject = new BasicDBObject();
@@ -61,10 +59,7 @@ public class PersonService {
 	}
 
 	public void update(Person person) {
-		System.out.println("\n******** PersonService update method***********");
-		System.out.println("\n Person to be updated  : " + person.getId() + " " + person.getName() + " "
-				+ person.getSurname() + " " + person.getPhoneNumber());
-
+		
 		BasicDBObject searchQuery = new BasicDBObject().append("id", person.getId());
 
 		BasicDBObject dbObject = new BasicDBObject();
@@ -78,9 +73,7 @@ public class PersonService {
 	}
 
 	public void delete(int id) {
-		System.out.println("\n********Person Service delete method***********");
-		System.out.println("to be deleted person id : " + id);
-
+		
 		BasicDBObject searchQuery = new BasicDBObject().append("id", id);
 
 		dao.delete(searchQuery);
@@ -95,7 +88,6 @@ public class PersonService {
 	public void displayMongoDB() {
 		List<Person> personList = dao.getMongodbAsPersonList();
 
-		System.out.println("\n   ******  writing person list from current mongoDB  ********");
 		for (Person eachPerson : personList) {
 			System.out.println("Person info : " + eachPerson.getId() + " " + eachPerson.getName() + " "
 					+ eachPerson.getSurname() + " " + eachPerson.getPhoneNumber());

@@ -122,10 +122,26 @@ classes but just applying the ones we know we want to use,
 corresponding to the features we like. We could call this the "a la
 carte" approach, as opposed to "all you can eat" that comes with full
 autoconfiguration. Autoconfiguration classes are just regular
-&lt;code&gt;@Configuration&lt;/code&gt; so we can &lt;code&gt;@Import&lt;/code&gt; them into an application that
-does not &lt;code&gt;@EnableAutoConfiguration&lt;/code&gt;. For example, here is the
-application above, with all the features we want (excluding
-actuators):&lt;/p&gt;
+&lt;code&gt;@Configuration&lt;/code&gt; so in principle we can &lt;code&gt;@Import&lt;/code&gt; them into an
+application that does not &lt;code&gt;@EnableAutoConfiguration&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonitionblock warning"&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class="icon"&gt;
+&lt;div class="title"&gt;Warning&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class="content"&gt;
+Don&amp;#8217;t do this without reading the rest of the article. It&amp;#8217;s
+not the right way to use Spring Boot Autoconfiguration. It might break
+something, but as always your mileage may vary.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For example, here is the application above, with all the features we
+want (excluding actuators):&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="listingblock"&gt;
 &lt;div class="content"&gt;
@@ -485,7 +501,10 @@ at runtime is not free, but it isn&amp;#8217;t particularly expensive either
 (especially with Spring Boot 2.1.x). The smaller number of features
 you use, the fewer classes are loaded, which lead to faster
 startup. At the end of the day we don&amp;#8217;t expect
-&lt;code&gt;@EnableAutoConfiguration&lt;/code&gt; to lose its value or its popularity.&lt;/p&gt;
+&lt;code&gt;@EnableAutoConfiguration&lt;/code&gt; to lose its value or its popularity, and
+remember your mileage may vary: the PetClinic and simple samples in
+this article are not a guide to what you can expect with larger, more
+complex applications.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;</content>

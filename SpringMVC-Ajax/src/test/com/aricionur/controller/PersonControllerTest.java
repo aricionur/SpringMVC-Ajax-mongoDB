@@ -52,7 +52,6 @@ public class PersonControllerTest {
 
 		@InjectMocks
 		ControllerMVC controllerMVC;
-//		CustomerController customerController;
 		
 		MockMvc mockMvc;
 		
@@ -63,7 +62,6 @@ public class PersonControllerTest {
 		public void setup() {
 			MockitoAnnotations.initMocks(this);
 			
-//			mockMvc = MockMvcBuilders.standaloneSetup(customerController).build();
 			mockMvc = MockMvcBuilders.standaloneSetup(controllerMVC).setViewResolvers(viewResolver).build();
 			
 		}
@@ -89,7 +87,6 @@ public class PersonControllerTest {
 		
 		@Test
 		public void testAdd() throws Exception{
-			System.out.println("\n **** testAdd() ici : 1");
 			Person addedPerson = new Person(88, "nameOfAddedFromThenReturn", "surnameOfAddedFromThenReturn", "phoneNumberOfAddedFromThenReturn");
 		
 			when(personServiceMock.insert(isA(Person.class))).thenReturn(addedPerson);
@@ -101,19 +98,8 @@ public class PersonControllerTest {
 					.andExpect(model().attributeExists("addedPerson"))
 					.andReturn();
 			 
-//			    ArgumentCaptor<Customer> formObjectArgument = ArgumentCaptor.forClass(Customer.class);
-//		        verify(customerServiceMock, times(1)).insert(formObjectArgument.capture());
-//		        verifyNoMoreInteractions(customerServiceMock);
-//		 
-//		        Customer formObject = formObjectArgument.getValue();
-//		 
-//		        assertThat(formObject.getId(), is("33"));
-//		        assertThat(formObject.getName(), is("nameOfAdded"));
-//		        assertThat(formObject.getSurname(), is("surnameOfAdded"));
 			 
-			System.out.println("\n  ******   test icinden log *****" );
 			Person returnedPerson = (Person) result.getModelAndView().getModel().get("addedPerson");
-			System.out.println("\n  ******   returned customer id : " + returnedPerson.getId());
 			
 			assertEquals("88", returnedPerson.getId());
 			assertEquals("nameOfAddedFromThenReturn", returnedPerson.getName());
@@ -123,7 +109,20 @@ public class PersonControllerTest {
 //			assertThat(returnedCustomer.getId(), is("88"));
 //			assertThat(returnedCustomer.getName(), is("nameOfAddedFromThenReturn"));
 //			assertThat(returnedCustomer.getSurname(), is("surnameOfAddedFromThenReturn"));
-			System.out.println("\n  **  add test metod sonu  **");
+
+			
+//                    ** Another Alternative Method **
+//		    ArgumentCaptor<Person> formObjectArgument = ArgumentCaptor.forClass(Person.class);
+//	        verify(personServiceMock, times(1)).insert(formObjectArgument.capture());
+//	        verifyNoMoreInteractions(personServiceMock);
+//	 
+//	        Person formObject = formObjectArgument.getValue();
+//	 
+//	        assertThat(formObject.getId(), is("88"));
+//	        assertThat(formObject.getName(), is("nameOfAddedFromThenReturn"));
+//	        assertThat(formObject.getSurname(), is("surnameOfAddedFromThenReturn"));
+//		    assertThat(formObject.getPhoneNumber(), is("phoneNumberOfAddedFromThenReturn"));
+
 			
 		} 
 		

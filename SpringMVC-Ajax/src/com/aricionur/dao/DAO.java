@@ -11,20 +11,17 @@ public class DAO extends ADao {
 
 	public void insert(BasicDBObject dbObject) {
 
-		System.out.println("\n  ** dao delete method  **");
 		collection.insert(dbObject);
 
 	}
 
 	public void update(BasicDBObject searchQuery, BasicDBObject dbObject) {
-		System.out.println("\n ** dao update method **");
 
 		collection.update(searchQuery, dbObject);
 
 	}
 
 	public void delete(BasicDBObject searchQuery) {
-		System.out.println("\n**  dao delete method  **");
 
 		collection.remove(searchQuery);
 
@@ -55,16 +52,6 @@ public class DAO extends ADao {
 		}
 
 		return PersonList;
-	}
-
-	public void displayMongoDB() {
-		List<Person> personList = getMongodbAsPersonList();
-
-		System.out.println("\n   ******  writing person list from current mongoDB  ********");
-		for (Person eachPerson : personList) {
-			System.out.println("Person info : " + eachPerson.getId() + " " + eachPerson.getName() + " "
-					+ eachPerson.getSurname() + " " + eachPerson.getPhoneNumber());
-		}
 	}
 
 }
