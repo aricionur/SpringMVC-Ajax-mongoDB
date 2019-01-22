@@ -6,6 +6,10 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="SpringMvcDeneme"/>
+			<item value="junitTestWebProject"/>
+			<item value="JunitTest_project"/>
+			<item value="SpringMVC-Ajax"/>
 			<item value="mogoDBDeneme"/>
 			<item value="Deneme"/>
 			<item value="Project"/>
@@ -13,6 +17,10 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SpringMvcDeneme"/>
+			<item value="junitTestWebProject"/>
+			<item value="JunitTest_project"/>
+			<item value="SpringMVC-Ajax"/>
 			<item value="mogoDBDeneme"/>
 			<item value="Deneme"/>
 			<item value="Project"/>
